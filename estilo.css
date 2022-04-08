@@ -1,0 +1,87 @@
+
+
+.titulo{
+    text-align: left;
+    margin-left:  40px;
+}
+
+.jumbotron{
+    background-image: url(fundotesteopc.png);
+    
+}
+
+.jumbotron h1{
+    color: white;
+    text-shadow: 2px 2px 2px black
+}
+.jumbotron h3{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    
+}
+ 
+.container ul li{
+    text-align: left;
+    margin-top: 5px;
+    
+}
+.col-sm{
+    box-shadow: 3px 3px 10px #999;
+    border-radius: 3px;
+    
+    
+}
+footer{
+    background:rgb(77, 123, 247);
+    margin: 5px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    text-align: left;
+    border: solid 1px grey;
+    
+}
+footer p{
+    display: inline;
+    margin: 10px;
+    text-align: left;
+    margin-top: 7px;
+    color: white;
+    text-shadow: 2px 2px 2px black
+}
+
+.seca{
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px #999;
+    
+}
+
+.seca h3{
+    text-align: center;
+    
+}
+
+.seca p{
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.seca p img{
+    margin-top: 20px;
+    float: left;
+    margin-right: 15px;
+    box-shadow: 3px 3px 10px #999;
+}
+.container-fluid{
+    display: inline-block;
+}
+@media screen and (max-width: 500px) {
+    footer p{
+       display: block;
+        
+    }
+    
+}
